@@ -4,7 +4,6 @@ import Meals from "./components/Meals/Meals";
 import CartProvider from "./store/CartProvider";
 
 import Cart from './components/Cart/Cart'
-import { hide } from './../../moodle/lib/amd/src/local/aria/aria-hidden';
 
 function App() {
   //Define initial states
