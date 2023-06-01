@@ -11,7 +11,10 @@ const Cart = (props) => {
   const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
   const hasItems = cartCtx.items.length > 0;
 
-  const imageHandler = () => {}
+  const imageHandler = () => {
+    //Import image to be displayed
+    //display images
+  }
   const cartItemRemoveHandler = (id) => {
     cartCtx.removeItem(id);
   };
